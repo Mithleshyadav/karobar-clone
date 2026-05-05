@@ -21,7 +21,7 @@ const LoadingProgress = () => {
 
   return (
     <div className="fixed inset-0 bg-backgrounddeep flex flex-col items-center justify-center z-[9999]">
-      <img src={logoDark} alt="Logo" className="h-12 object-contain mb-8" />
+      <img src={logoDark} alt="Logo" className="h-100 w-auto object-contain mb-8" />
       
       <div className="w-64 h-1 bg-white/10 rounded-full overflow-hidden">
         <div

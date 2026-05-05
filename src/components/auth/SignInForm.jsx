@@ -27,8 +27,8 @@ const SignInForm = () => {
     <>
       {/* Logo + Language */}
       <div className="flex items-center justify-between ">
-        <div className="flex items-center h-10">
-          <img src={logo} alt="Chalayo Logo" className="h-8 object-contain" />
+        <div className="flex items-center ">
+          <img src={logo} alt="Chalayo Logo" className="h-100 w-auto object-contain" />
         </div>
         <CountryDropDown />
       </div>

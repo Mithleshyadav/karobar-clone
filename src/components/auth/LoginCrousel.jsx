@@ -27,7 +27,7 @@ const slides = [
   },
 ];
 
-const LoginCarousel = () => {
+const LoginCrousel = () => {
   const [current, setCurrent] = useState(0);
   const [loadedImages, setLoadedImages] = useState({});
 
@@ -112,6 +112,6 @@ const LoginCarousel = () => {
   );
 };
 
-export default LoginCarousel;
+export default LoginCrousel;
 
 
