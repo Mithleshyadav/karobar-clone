@@ -5,6 +5,8 @@ import AuthPage from "./components/auth/AuthPage";
 import Dashboard from "./pages/dashboardpage/Dashboard";
 import DashboardLayout from "./components/common-layout/CommonLayoutView";
 import LoadingProgress from "./components/common/LoadingProgress";
+import PartiesPage from "./pages/partiespage/index.jsx";
+import AddTransactionForm from "./components/parties/AddTransactionForm/TransactionForm/index.jsx"
 
 
 const App = () => {
@@ -29,6 +31,9 @@ const App = () => {
           <Route element={<DashboardLayout />}>
             <Route path="/dashboard" element={<Dashboard />} />
 
+            <Route path="/parties" element={<PartiesPage />} />
+            <Route path="/transactionform" element={<AddTransactionForm />} />
+          
           </Route>
 
           <Route path="*" element={<Navigate to="/dashboard" replace />} />
